@@ -1,9 +1,6 @@
 import os
 import tornado.web
 import tornado.ioloop
-import logging
-import requests
-import json
 
 class CallBackHandler(tornado.web.RequestHandler):
     def post(self, *args, **argd):
